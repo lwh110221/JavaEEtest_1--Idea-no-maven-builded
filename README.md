@@ -22,6 +22,7 @@
     │   │   ├── WEB-INF
     │   │   │   ├── lib
     │   │   │   │   ├── mysql-connector-java-5.1.47.jar
+    │   │   │   ├   ├── servlet-api.jar
     │   │   │   ├── web.xml
     │   │   ├── add_book.jsp
     │   │   ├── query_book.jsp
