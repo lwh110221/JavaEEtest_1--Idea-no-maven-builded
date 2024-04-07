@@ -26,6 +26,7 @@
     │   │   │   ├── web.xml
     │   │   ├── add_book.jsp
     │   │   ├── query_book.jsp
+    │   │   ├── index.jsp
 
 ```
     ### 2. 项目功能
@@ -33,10 +34,10 @@
     - 查询图书
     - 修改图书价格
     ### 3. 项目运行
-    - 配置tomcat
-    - 配置mysql
-    - 导入项目
-    - 运行项目
+    - 配置tomcat     tomcat版本：8.5   应用程序上下文设置为：/javaeetest1     url设置为：http://localhost:8080/javaeetest1/index.jsp
+    - 配置mysql   数据库名：自定义  表名：t_book     字段：bookid，bookname，bookprice
+    - 导入项目     
+    - 运行项目    运行坏境：jdk1.8   tomcat8.5   mysql5.7
 
 
 作者信息
