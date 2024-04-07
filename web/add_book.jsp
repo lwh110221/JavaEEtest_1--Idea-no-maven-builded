@@ -13,11 +13,28 @@
     <meta charset="UTF-8">
     <title>添加书</title>
 </head>
+<style>
+    h1 {
+        text-align: center;
+    }
+    form {
+        width: 300px;
+        margin: 0 auto;
+    }
+    input {
+        width: 100%;
+        margin: 10px 0;
+    }
+    input[type="submit"] {
+        width: 100px;
+        margin: 10px auto;
+    }
+</style>
 <body>
 <h1>添加图书</h1>
 <form action="addBook" accept-charset="UTF-8" method="post">
-    Book Name: <input type="text" name="bookname"><br>
-    Book Price: <input type="number" step="0.01" name="bookprice"><br>
+    书名: <input type="text" name="bookname"><br>
+    价格: <input type="number" step="0.01" name="bookprice"><br>
     <input type="submit" value="Add Book">
 </form>
 </body>

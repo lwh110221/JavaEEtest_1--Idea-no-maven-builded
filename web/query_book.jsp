@@ -3,7 +3,7 @@
 <%--
   Author : luowenhao221
   Date: 2024/4/7
-  Time: 15:31
+  Time: 15:50
   To change this template use File | Settings | File Templates.
 --%>
 <%@ page import="com.lwh.bean.Book" %>
@@ -13,13 +13,40 @@
 <head>
     <title>查询书籍</title>
 </head>
+<style>
+    table {
+        width: 100%;
+        border-collapse: collapse;
+    }
+
+    table, th, td {
+        border: 1px solid black;
+    }
+
+    th, td {
+        padding: 10px;
+        text-align: left;
+    }
+
+    th {
+        background-color: #f2f2f2;
+    }
+    .serch{
+        margin: 0 auto;
+        width: 50%;
+        text-align: center;
+
+    }
+</style>
 <body>
-<h2>请输入价格区间查询书籍</h2>
-<form action="queryBook" method="post">
-    最低价: <input type="number" name="minPrice" required><br>
-    最高价: <input type="number" name="maxPrice" required><br>
-    <input type="submit" value="查询">
+<div class="serch">
+    <h2>请输入价格区间查询书籍</h2>
+        <form action="queryBook" method="post">
+            最低价: <input type="number" name="minPrice" required><br>
+            最高价: <input type="number" name="maxPrice" required><br>
+        <input type="submit" value="查询">
 </form>
+</div>
 
                         <%-- 检查是否有查询结果 --%>
 <% if(request.getAttribute("books") != null && !((List<Book>)request.getAttribute("books")).isEmpty()){ %>
