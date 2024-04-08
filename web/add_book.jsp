@@ -29,14 +29,19 @@
         width: 100px;
         margin: 10px auto;
     }
+    body{
+        background-color: #fee5ca;
+    }
 </style>
 <body>
 <h1>添加图书</h1>
+<div class="main">
 <form action="addBook" accept-charset="UTF-8" method="post">
     书名: <input type="text" name="bookname"><br>
     价格: <input type="number" step="0.01" name="bookprice"><br>
-    <input type="submit" value="Add Book">
+    <input type="submit" value="提交">
 </form>
+</div>
 </body>
 </html>
 

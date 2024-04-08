@@ -14,6 +14,10 @@
     <title>查询书籍</title>
 </head>
 <style>
+    body{
+        font-family: Arial, sans-serif;
+        background-color: antiquewhite;
+    }
     table {
         width: 100%;
         border-collapse: collapse;
@@ -31,15 +35,14 @@
     th {
         background-color: #f2f2f2;
     }
-    .serch{
+    .search{
         margin: 0 auto;
         width: 50%;
         text-align: center;
-
     }
 </style>
 <body>
-<div class="serch">
+<div class="search">
     <h2>请输入价格区间查询书籍</h2>
         <form action="queryBook" method="post">
             最低价: <input type="number" name="minPrice" required><br>
