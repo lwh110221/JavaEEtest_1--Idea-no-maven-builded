@@ -6,15 +6,15 @@ package com.lwh.bean;
  * @Project : JEEtest_1
  */
 public class Book {
-    private String bookid;
+    private Integer bookid;
     private String bookname;
     private double bookprice;
 
-    public String getBookid() {
+    public Integer getBookid() {
         return bookid;
     }
 
-    public void setBookid(String bookid) {
+    public void setBookid(Integer bookid) {
         this.bookid = bookid;
     }
 
