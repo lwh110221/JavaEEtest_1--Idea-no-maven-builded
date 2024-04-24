@@ -16,4 +16,6 @@ public interface BookDAO {
 
                 //修改书籍价格
     void updateBookPrice(String bookid, double newPrice);
+
+    List<Book> getBooksByName(String bookName);
 }

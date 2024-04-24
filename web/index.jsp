@@ -36,6 +36,8 @@
 <a href="add_book.jsp">添加图书</a>
 <h1>查询和修改</h1>
 <a href="query_book.jsp">查询和修改</a>
+<h1>模糊查询图书</h1>
+<a href="booklist.jsp">模糊查询图书</a>
 
 </body>
 </html>
