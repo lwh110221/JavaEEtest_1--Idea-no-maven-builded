@@ -21,8 +21,9 @@
     │   │   ├── QueryBookServlet.java
     │   │   ├── UpdateBookServlet.java
     │   │   ├── LoginServlet.java
+    │   │   ├── getBooksByName.java
     │   │—— com.lwh.util
-    │   │   ├── DBUtil.java
+    │   │   ├── sqlUtil.java
     │   │—— com.lwh.filter
     │   │   ├── LoginFilter.java
     │   ├── web
@@ -30,11 +31,13 @@
     │   │   │   ├── lib
     │   │   │   │   ├── mysql-connector-java-5.1.47.jar
     │   │   │   ├   ├── servlet-api.jar
+    │   │   │   ├   ├── jstl-1.2.jar
     │   │   │   ├── web.xml
     │   │   ├── add_book.jsp
     │   │   ├── query_book.jsp
     │   │   ├── index.jsp
     │   │   ├── login.jsp
+    │   │   ├── booklist.jsp
 
 ```
     ###  项目功能
@@ -42,6 +45,7 @@
     - 添加图书
     - 查询图书
     - 修改图书价格
+    - 模糊查询图书
     
     
     ###  项目运行
