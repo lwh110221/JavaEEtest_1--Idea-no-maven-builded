@@ -20,6 +20,13 @@
             border: 1px solid #000;
             text-align: center;
         }
+        h1{
+            text-align: center;
+        }
+
+        form{
+            text-align: center;
+        }
     </style>
 </head>
 <body>
@@ -33,14 +40,12 @@
     <tr>
         <th>编号</th>
         <th>书名</th>
-        <th>作者</th>
         <th>价格</th>
     </tr>
     <c:forEach items="${books}" var="book">
         <tr>
             <td>${book.bookid}</td>
             <td>${book.bookname}</td>
-            <td>${book.bookprice}</td>
             <c:choose>
                 <c:when test="${book.bookprice>50}">
                     <td style="background-color: yellow">${book.bookprice}</td>

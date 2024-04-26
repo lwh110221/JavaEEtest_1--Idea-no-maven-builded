@@ -9,6 +9,22 @@
 <html>
 <head>
     <title>登录</title>
+    <style>
+        h1{
+            text-align: center;
+        }
+        form{
+            width: 300px;
+            margin: 0 auto;
+        }
+        input{
+            width: 100%;
+            margin: 10px 0;
+        }
+        body{
+            background-color: #cbf1ff;
+        }
+    </style>
 </head>
 <body>
 <h1>登录</h1>

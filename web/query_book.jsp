@@ -19,8 +19,9 @@
         background-color: antiquewhite;
     }
     table {
-        width: 100%;
+        width: 75%;
         border-collapse: collapse;
+        margin: 0 auto;
     }
 
     table, th, td {
@@ -39,6 +40,10 @@
         margin: 0 auto;
         width: 50%;
         text-align: center;
+    }
+    h2{
+        text-align: center;
+        color: red;
     }
 </style>
 <body>
